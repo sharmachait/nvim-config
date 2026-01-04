@@ -41,3 +41,8 @@ map("n", "<leader>bd", function()
     stopOnEntry = false,
   })
 end, { desc = "Build and debug with args" })
+
+-- Git diff mappings - using <leader>g prefix
+map("n", "<leader>gd", "<cmd>DiffviewOpen<CR>", { desc = "Open git diff" })
+map("n", "<leader>gh", "<cmd>DiffviewFileHistory<CR>", { desc = "Git file history" })
+map("n", "<leader>gc", "<cmd>DiffviewClose<CR>", { desc = "Close git diff" })
