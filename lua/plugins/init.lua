@@ -12,6 +12,11 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    "olimorris/onedarkpro.nvim",
+    lazy = false,
+    priority = 1000,
+  },
 
   {
     'mrcjkb/rustaceanvim',
